@@ -1,0 +1,39 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+ 
+  width: 100%;
+}
+
+.dropdown:hover .dropdownContent {display: block;}
+
+#js-map {
+  height: 60%;
+  width: 100%;
+}
+
+body {
+  font-family: 'BreatheFireIi-2z9W';
+  text-align: center;
+  color: red;
+  font-size: x-large;
+  background-color: black;
+  background-image: url(./images/demon.jpeg);
+}
+
+button {
+  font-family: 'BreatheFireIi-2z9W';
+
+  color: red;
+  font-size: large;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'BreatheFireIi-2z9W';
+  src: url('./font/BreatheFireIi-2z9W.ttf') format('truetype');
+}

@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel='stylesheet' href='./style.css'>
-  <link rel='stylesheet' href="./lib/v6.3.1-dist/ol.css"
+  <link rel='stylesheet' href="./lib/v6.3.1-dist/ol.css">
 </head>
 <body>
+  <div id="top-bar">
+  <div id="location">
+    <p>Your selected location is</p>
+    <p id="location-text"></p>
+    <div class="dropdown">
+      <button class="dropbutton">Radius Select</button>
+      <div class="dropdownContent">
+        <button class="selectButton">5</button>
+        <button class="selectButton">10</button>
+        <button class="selectButton">20</button>
+      </div>
+    </div>
+    <div id="go">
+      <button type='button'>Consult the Demon</button>
+    </div>
+  </div>
+  </div>
   <div id='js-map' class='map'>
 
   </div>
