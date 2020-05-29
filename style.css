@@ -11,8 +11,8 @@
 
 .dropdown:hover .dropdownContent {display: block;}
 
-#js-map {
-  height: 60%;
+#map {
+  height: 70%;
   width: 100%;
 }
 
