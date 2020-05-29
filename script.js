@@ -2,6 +2,7 @@ const go = document.getElementById('go');
 const selectButtons = document.querySelectorAll('.selectButton');
 const locationText = document.getElementById('location-text')
 const defaultCoords = [42.89,-70.812]
+const destination = document.getElementById('destination')
 //default radius
 var selectedRadius = 5
 var startLocation = null
@@ -73,6 +74,8 @@ window.initMap = function() {
     addMarker({lat:x, lng:y})
     marker = new google.maps.Marker({position:{lat:x, lng:y}, map: map});
     markers.push(marker)
+    console.log(x)
+    destination.textContent = "Your quest awaits at " + [String(x), String(y)]
   });
 
 
